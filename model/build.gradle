@@ -1,0 +1,8 @@
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation deps.retrofitGson
+
+    // [Kotlin]
+    implementation deps.kotlin
+}

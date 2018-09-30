@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CoInfo</string>
+    <string name="data_unavailable_text">No data available</string>
+    <string name="current_period_text">BTC %$1s Data</string>
+    <string name="one_week">1 Week</string>
+    <string name="one_month">1 Month</string>
+    <string name="three_months">3 Months</string>
+    <string name="one_years">1 Year</string>
+    <string name="six_months">6 Months</string>
+</resources>

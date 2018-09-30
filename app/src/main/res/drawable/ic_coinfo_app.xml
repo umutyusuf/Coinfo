@@ -1,0 +1,15 @@
+<vector android:height="24dp" android:viewportHeight="509.287"
+    android:viewportWidth="509.287" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#4B5AA7" android:pathData="M254.644,254.644m-254.644,0a254.644,254.644 0,1 1,509.288 0a254.644,254.644 0,1 1,-509.288 0"/>
+    <path android:fillColor="#DEDEDF" android:pathData="M453.001,107.147H56.286c-4.069,0 -7.46,3.391 -7.46,7.46v280.074c0,4.069 3.391,7.46 7.46,7.46h396.715c4.069,0 7.46,-3.391 7.46,-7.46V114.607C460.461,110.538 457.07,107.147 453.001,107.147z"/>
+    <path android:fillColor="#F1F3F7" android:pathData="M69.51,160.721h370.268v221.415h-370.268z"/>
+    <path android:fillColor="#F0582F" android:pathData="M79.343,137.325m-9.833,0a9.833,9.833 0,1 1,19.666 0a9.833,9.833 0,1 1,-19.666 0"/>
+    <path android:fillColor="#71D456" android:pathData="M110.199,137.325m-9.833,0a9.833,9.833 0,1 1,19.666 0a9.833,9.833 0,1 1,-19.666 0"/>
+    <path android:fillColor="#4485C5" android:pathData="M141.054,137.325m-9.833,0a9.833,9.833 0,1 1,19.666 0a9.833,9.833 0,1 1,-19.666 0"/>
+    <path android:fillColor="#F1F3F7" android:pathData="M429.944,127.491H176.996c-5.425,0 -9.833,4.408 -9.833,9.833c0,5.425 4.408,9.833 9.833,9.833h252.948c5.425,0 9.833,-4.408 9.833,-9.833C439.777,131.899 435.37,127.491 429.944,127.491z"/>
+    <path android:fillColor="#646B79" android:pathData="M125.118,340.429l-8.138,-7.12l90.872,-98.332l99.348,63.407l76.97,-95.958l8.476,6.782l-83.073,103.417l-100.026,-63.746z"/>
+    <path android:fillColor="#6EB1E1" android:pathData="M121.049,337.038m-22.379,0a22.379,22.379 0,1 1,44.758 0a22.379,22.379 0,1 1,-44.758 0"/>
+    <path android:fillColor="#FBD303" android:pathData="M208.53,242.098m-22.379,0a22.379,22.379 0,1 1,44.758 0a22.379,22.379 0,1 1,-44.758 0"/>
+    <path android:fillColor="#71D456" android:pathData="M308.217,305.505m-22.379,0a22.379,22.379 0,1 1,44.758 0a22.379,22.379 0,1 1,-44.758 0"/>
+    <path android:fillColor="#F0582F" android:pathData="M388.238,205.817m-22.379,0a22.379,22.379 0,1 1,44.758 0a22.379,22.379 0,1 1,-44.758 0"/>
+</vector>

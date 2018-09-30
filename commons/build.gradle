@@ -1,0 +1,9 @@
+apply plugin: 'kotlin'
+
+dependencies {
+    // [Kotlin]
+    implementation deps.kotlin
+
+    // [rx]
+    implementation deps.rxKotlin
+}

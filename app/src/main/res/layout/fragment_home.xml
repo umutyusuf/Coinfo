@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <import type="com.malik.coinfo.ui.uimodel.ResourceState" />
+
+        <variable
+            name="priceDataResource"
+            type="com.malik.coinfo.ui.uimodel.Resource&lt;java.util.List&lt;com.malik.model.PricePoint>>" />
+
+    </data>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/timePeriodSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_margin="@dimen/default_margin"
+            android:clickable="@{priceDataResource.getState() == ResourceState.SUCCESS}"
+            android:gravity="center" />
+
+        <com.malik.coinfo.ui.view.chart.CoinfoLineChart
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:visibility="@{priceDataResource.getState() != ResourceState.FETCHING}"
+            app:priceValues="@{priceDataResource.getData()}" />
+
+        <ProgressBar
+            android:id="@+id/transactionDataProgress"
+            style="@style/Base.Widget.AppCompat.ProgressBar"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:visibility="@{priceDataResource}" />
+
+    </FrameLayout>
+</layout>

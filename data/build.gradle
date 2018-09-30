@@ -1,0 +1,18 @@
+apply plugin: "kotlin"
+
+
+dependencies {
+    api project(":model")
+
+    implementation deps.javaxInject
+
+    // [Retrofit]
+    implementation deps.retrofit
+    implementation deps.retrofitLoggingInterceptor
+    implementation deps.retrofitGson
+    implementation deps.retrofitRxConverter
+    implementation deps.okhttp3
+    // [Kotlin]
+    implementation deps.kotlin
+
+}
